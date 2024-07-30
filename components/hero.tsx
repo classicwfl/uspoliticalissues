@@ -30,7 +30,7 @@ export default function Hero() {
                 />
             </div>
             
-            <h1 className="font-black text-xl md:text-4xl uppercase grow md:self-center leading-relaxed order-3 md:order-2 w-full md:w-auto absolute top-[35vh] md:static">Here are just a few <span className="text-3xl md:text-7xl block leading-tight">political issues</span> in the United States.</h1>
+            <h1 className="font-black text-xl md:text-4xl lg:text-5xl uppercase grow md:self-center leading-relaxed order-3 md:order-2 w-full md:w-auto absolute top-[35vh] md:static">Here are just a few <span className="text-3xl md:text-7xl lg:text-8xl block leading-tight">political issues</span> in the United States.</h1>
             <div className="w-30 md:w-drop order-2 md:order-3">
                 <img
                     src="/reddrop.png"

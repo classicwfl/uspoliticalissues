@@ -30,7 +30,7 @@ export default function RootLayout({
                     href="https://use.typekit.net/izf8xxn.css"
                 />
             </Head>
-            <body className="font-sans bg-pageBg">{children}</body>
+            <body className="font-sans bg-pageBg text-[1.1rem]">{children}</body>
         </html>
     );
 }
