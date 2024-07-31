@@ -8,12 +8,12 @@ export const metadata: Metadata = {
     description: "These are just a few of the political issues being faced in the United States for 2024.",
     metadataBase: new URL('https://uspoliticalissues.com'),
     icons: {
-        icon: '/smoa-icon-16.png',
-        shortcut: '/smoa-icon-512.png',
-        apple: '/smoa-icon-512.png',
+        icon: '/favicon-16x16.png',
+        shortcut: '/android-chrome-512x512.png',
+        apple: '/android-chrome-512x512.png',
     },
     openGraph: {
-        images: '/smoa-og2.jpg',
+        images: '/uspolissuesposter.jpg',
     },
 };
 

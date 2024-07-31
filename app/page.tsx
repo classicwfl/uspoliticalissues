@@ -3,12 +3,10 @@ import Section from "@/components/section";
 import SectionInner from "@/components/sectioninner";
 import SideBySide from "@/components/sidebyside";
 import Pg from "@/components/pg";
-import InnerHead from "@/components/innerhead";
 import TLink from "@/components/tlink";
-import Button from "@/components/button";
 import BackToTop from "@/components/backtotop";
 import Script from "next/script";
-import FAQ from "@/components/faq";
+import Conclusion from "@/components/conclusion";
 
 const GA_MEASUREMENT_ID = process.env.NEXT_PUBLIC_MEASUREMENT_ID;
 
@@ -86,37 +84,7 @@ export default function Home() {
                                 </SideBySide>
                             </SectionInner>
                         </Section>
-                        <Section id="footer">
-                            <SectionInner>
-                                <div className="text-center max-w-5xl m-auto">
-                                    <h2 className="font-black uppercase text-3xl md:text-7xl lg:text-8xl block leading-tight">
-                                        so.. What should you do?
-                                    </h2>
-                                    <img className="m-auto" src="donkey.png" alt="" />
-                                    <h2 className="font-black uppercase text-3xl md:text-7xl lg:text-8xl block leading-tight mb-8">
-                                        <span className="text-xl md:text-2xl lg:text-6xl block mb-5">It's simple.</span>
-                                        Vote <span className="text-accent-2">blue</span>, no matter who.
-                                    </h2>
-                                    <div className="max-w-xl m-auto">
-                                        <Pg>In the past, splitting the ticket was no big deal. Most Republicans weren't as outwardly disturbing - or even willing to publicly entertain current far-right ideals - back before Trump.</Pg>
-
-                                        <Pg>Now, however, we've got extremist rhetoric taking a front seat for the Republican party.</Pg>
-
-                                        <Pg>We've got a Supreme Court primed and ready to rubber stamp as much as it can for the political right.</Pg>
-
-                                        <Pg>Many of the things we took for granted - the laws applying to even a president, or Roe v. Wade - are now left in our dreams.</Pg>
-
-                                        <Pg>The overton window has stepped back to the right this time.. In a big way.</Pg>
-
-                                        <Pg>The only way we can get back on the correct track is by voting in as many left-leaning folks at ALL levels of Government - both State and Federal - to hopefully stem the side of authoritarianism and fascism by convincing Republicans to <strong>put the stupid stuff back in the box..</strong></Pg>
-
-                                        <Pg>..And if that isn't enough, at least we can hopefully enact some real legislation that will secure our future better this time.
-                                        </Pg>
-                                    </div>
-                                    
-                                </div>
-                            </SectionInner>
-                        </Section>
+                        <Conclusion />
                     </div>
                     
                 </div>
