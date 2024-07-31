@@ -1,4 +1,4 @@
-So, here we are. I haven't released anything really "public" in a long time, so let's share the source for this simple single page spun up in Next.JS, shall we?
+This readme is gonna be pretty basic; not a lot needed.
 
 ## Getting Started
 
@@ -16,9 +16,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Learn More
 
-Sub-MOA Spoonies is, well.. Just go to [https://submoaspoonies.com](https://submoaspoonies.com) to learn what it is.
+This is just a small landing page designed to be easily sharable for undecided/centrist folks of any political leanings in the US; targeting the extremists or traditional right-wing folks is going to be a failing prospect without a more strategic approach. This focuses on a handful of simple core issues with easily-digestible, non-biased sources to back them up.
 
-It's ultimately a project for advocacy and encouragement of a niche of a niche.. People who live with chronic illness (like me) who also enjoy precision rifle shooting (like me), but it's also a reminder that we can - and do - compete with the "normies" at times!
+Check it out at the [US Political Issues landing page](https://uspoliticalissues.com).
 
 As far as tech goes, this is just a simple Next.js 13 site with TypeScript and Tailwinds (love me some Tailwinds now). TypeScript is honestly a bit extra for this, but I'm used to working in it so I figured why change anything.
 
